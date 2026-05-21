@@ -27,7 +27,7 @@ Create and manage user accounts and groups on a Linux system, applying real-worl
 ### Group & User Creation
 Created groups `eduvos_staff` and `eduvos_students` using `sudo groupadd`. Created 6 user accounts and assigned 2 users to each group using `sudo adduser`.
 
-
+![Group and User Creation](1.jpeg)
 
 ### Verifying Group Members
 Installed and used the `members` command to verify correct group assignments:

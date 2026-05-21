@@ -27,6 +27,7 @@ Create and manage user accounts and groups on a Linux system, applying real-worl
 ### Group & User Creation
 Created groups `eduvos_staff` and `eduvos_students` using `sudo groupadd`. Created 6 user accounts and assigned 2 users to each group using `sudo adduser`.
 
+1
 
 ### Verifying Group Members
 Installed and used the `members` command to verify correct group assignments:
@@ -35,6 +36,7 @@ sudo apt install members
 members eduvos_students
 members eduvos_staff
 ```
+3
 
 ### Password Expiry Policy
 Applied a 60-day password renewal policy to all student accounts:
@@ -42,6 +44,8 @@ Applied a 60-day password renewal policy to all student accounts:
 sudo chage -M 60 username
 ```
 This reduces the risk of compromised credentials being used long-term.
+
+4
 
 ### Account Expiry Date
 Set staff member Ike's account to automatically close on 31 December 2025:
@@ -55,7 +59,7 @@ Locked student member Tendai's account to immediately revoke access:
 ```bash
 sudo passwd -l tendai
 ```
-
+last
 ---
 
 ## 📚 What I Learned

@@ -1,6 +1,6 @@
 ## 🐧 Linux User & Group Management
 
-This is a hands-on Linux lab completed as part of my Higher Certificate in Cybersecurity at Eduvos. This lab covers creating and managing user accounts and groups, applying security policies such as password expiry and account lockout.
+This is a hands-on Linux lab completed as part of my Pre-Degree in Cybersecurity at Eduvos. This lab covers creating and managing user accounts and groups, applying security policies such as password expiry and account lockout.
 
 ---
 

@@ -1,4 +1,4 @@
-+# 🐧 Linux User & Group Management
+## 🐧 Linux User & Group Management
 
 This is a hands-on Linux lab completed as part of my Higher Certificate in Cybersecurity at Eduvos. This lab covers creating and managing user accounts and groups, applying security policies such as password expiry and account lockout.
 
@@ -26,6 +26,7 @@ Create and manage user accounts and groups on a Linux system, applying real-worl
 
 ### Group & User Creation
 Created groups `eduvos_staff` and `eduvos_students` using `sudo groupadd`. Created 6 user accounts and assigned 2 users to each group using `sudo adduser`.
+
 
 ### Verifying Group Members
 Installed and used the `members` command to verify correct group assignments:
